@@ -2,9 +2,9 @@
 
 **Student:** Farhiya Abdi Jama 
 
-**Studentnummer:** [Ditt studentnummer]
+**Studentnummer:** faabd3627
 
-**Dato:** [Innleveringsdato]
+**Dato:** 01.03.2026
 
 ---
 
@@ -14,17 +14,30 @@
 
 **Identifiserte entiteter:**
 
-[Skriv ditt svar her - list opp alle entitetene du har identifisert]
+Jeg var valgt å bruke disse entitetene i systemet;
+
+Stasjon --> dette skal vise stedet sykelen kan parkeres
+Lås --> dette representere de individuelle låsene på en stasjon
+Sykkel --> dette representere de ulike syklene som kan leies 
+Kunde --> de ulike kundene som skal brukes systemet
+Utleie --> skal vise leieforholdene mellom kunden og sykkelsystemet 
+
 
 **Attributter for hver entitet:**
 
-[Skriv ditt svar her - list opp attributtene for hver entitet]
+Stasjon: stasjon_id, navn, adresse
+Lås: laas_id, stasjon_id, laas_nr
+Sykkel: sykkel_id, laas_id, tatt_i_bruk_dato
+Kunde: kunde_id, fornavn, etternavn, mobilnummer, epost
+Utleie: utleie_id, kunde_id, sykkel_id, utlevert_tid, innlevert_tid, beloep
 
 ---
 
 ### Oppgave 1.2: Datatyper og `CHECK`-constraints
 
 **Valgte datatyper og begrunnelser:**
+
+
 
 [Skriv ditt svar her - forklar hvilke datatyper du har valgt for hver attributt og hvorfor]
 
