@@ -1,6 +1,6 @@
 # Besvarelse - Refleksjon og Analyse
 
-**Student:** [Ditt navn]
+**Student:** Farhiya Abdi Jama 
 
 **Studentnummer:** [Ditt studentnummer]
 
